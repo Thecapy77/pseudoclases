@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+  } 
+body {
+      margin: 0%;
+      padding: 0;
+      background-color: rgb(57, 95, 117);
+  }
+.container{
+    height: 10vh;
+    width: 100%;
+  }
+.hola{
+    width: 100%;
+    text-align: center;
+}
+  li{
+    font-size: 2vh;
+  }
+  .btn{
+    border-color: aliceblue;
+   color: aliceblue;
+  }
+  h1{
+    color: aliceblue;
+    height: 10vh;
+  }
+  .altura1{
+    background-color:rebeccapurple ;
+  }
+  .exciting-text::after {
+    content: " <- EXCITING!";
+    color: green;
+  }
+  
+  .boring-text::after {
+    content: " <- BORING";
+    color: red;
+  }
+  .altura2{
+    background-color:rgb(101, 245, 245) ;
+  }
+  q::before {
+    content: "«";
+    color: blue;
+  }
+  q::after {
+    content: "»";
+    color: red;
+  }
+  .altura3{
+    background-color:rebeccapurple ;
+  }
+  .altura4{
+    background-color:rgb(199, 238, 149) ;
+  }
+  input[type="file"]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color: #a29bfe;
+    transition: 1s;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+  }
+  .altura5{
+    background-color:rgb(191, 169, 212) ;
+  }
+  p {
+    width: 500px;
+    line-height: 1.5;
+  }
+  
+  h2 + p::first-letter {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 red;
+    font-size: 250%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+  }
+  .altura6{
+    background-color:rgb(228, 122, 74) ;
+  }
+  ::first-line {
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-indent: 20px;
+  }
+  .altura7{
+    background-color:rgb(190, 175, 206) ;
+  }
+ul li::marker {
+  color: red;
+  font-size: 1.5em;
+}
+.altura8{
+  background-color:rgb(228, 122, 74) ;
+}
+::placeholder {
+  color: green;
+}
+
+.force-opaque::placeholder {
+  opacity: 1;
+}
